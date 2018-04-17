@@ -1,5 +1,5 @@
 virt-install \
---name vps1 \
+--name=vps1 \
 --network bridge=br0 \
 --ram=2048 \
 --os-type linux --os-variant=rhel7 \
